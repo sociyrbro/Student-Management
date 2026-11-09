@@ -1,3 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Student Management</string>
+    <!-- 应用名 / 第一个 Activity 的标题：姓名 + 学号 -->
+    <string name="app_name">郭理杰2024110213</string>
+    <string name="main_title">郭理杰2024110213</string>
+    <string name="add_title">新增学生</string>
+
+    <!-- 学生列表 -->
+    <string name="student_count">共 %1$d 位学生</string>
+    <string name="student_info">学号：%1$s   性别：%2$s   班级：%3$s</string>
+    <string name="btn_add">＋ 添加学生</string>
+
+    <!-- 新增学生界面 -->
+    <string name="hint_student_id">学号</string>
+    <string name="hint_name">姓名</string>
+    <string name="hint_class">班级</string>
+    <string name="label_gender">性别：</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_cancel">取消</string>
+
+    <!-- 提示信息 -->
+    <string name="error_empty">学号、姓名、班级都不能为空</string>
+    <string name="error_duplicate_id">该学号已存在，请重新填写</string>
 </resources>
